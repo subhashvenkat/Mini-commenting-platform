@@ -5,6 +5,7 @@ from backend.app.database import get_comments, create_comment, delete_comment
 from backend.app.schemas import CommentSchema
 
 app = FastAPI()
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],

@@ -1,6 +1,7 @@
 from pydantic import BaseModel
+from typing import Optional
 
 class CommentSchema(BaseModel):
     content: str
     user: str
-    parent_id: str | None = None
+    parent_id: Optional[str] = None
