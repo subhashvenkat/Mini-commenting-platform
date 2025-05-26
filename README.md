@@ -1,7 +1,7 @@
 # Comment Management Application
 
 ## Overview
-This project is a comment management application built using FastAPI for the backend and Angular for the frontend. Users can log in, add, delete, and view comments. The application supports nested comments.
+This project is a Mini Commenting Platform built using FastAPI for the backend and Angular for the frontend. Dummy log in, add, delete, and view comments. The application supports nested comments.
 
 ## Technologies Used
 - Python with FastAPI
